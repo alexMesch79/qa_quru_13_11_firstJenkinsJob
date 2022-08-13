@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class FormTestsWithObjectPageTests extends TestsBase {
@@ -16,6 +17,7 @@ public class FormTestsWithObjectPageTests extends TestsBase {
     String aState = "Haryana", aCity = "Panipat";
 
     @Test
+    @DisplayName("Проверка заполнения регистрационной формы")
     void formTest() {
         formPageTest.openPage()
                 .setFirstName(aFirstName)

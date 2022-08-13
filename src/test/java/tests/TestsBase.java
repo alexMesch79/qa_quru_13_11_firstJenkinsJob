@@ -13,14 +13,5 @@ public class TestsBase {
         Configuration.browserSize = "1920x1200";
 
     }
-    /*
-
-    Faker faker = new Faker(new Locale("ru"));
-
-    String firstName = faker.address().firstName();
-    String lastName = faker.address().lastName();
-    String email = faker.internet().emailAddress();
-
-     */
 
 }
